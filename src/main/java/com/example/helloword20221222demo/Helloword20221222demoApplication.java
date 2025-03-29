@@ -17,6 +17,7 @@ public class Helloword20221222demoApplication {
 	@GetMapping("/haha")
 	public String haha(@RequestParam("haha") String haha) {
 		System.out.println("haha~");
+		System.out.println("git");
 		System.out.println(haha);
 		return "haha:"+haha;
 	}
