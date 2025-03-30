@@ -14,10 +14,15 @@ public class Helloword20221222demoApplication {
 		SpringApplication.run(Helloword20221222demoApplication.class, args);
 	}
 
+
+
 	@GetMapping("/haha")
 	public String haha(@RequestParam("haha") String haha) {
+<<<<<<< HEAD
 		System.out.println("haha~");
 		System.out.println("git");
+=======
+>>>>>>> parent of 646c57e (20230505)
 		System.out.println(haha);
 		return "haha:"+haha;
 	}
